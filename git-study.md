@@ -146,3 +146,9 @@ tail -n 数值(m) 文件名：查看文件倒数m条数据
 
 ![image-20240121173218336](https://cdn.jsdelivr.net/gh/chenshuosheng/picture/git/image-20240121173218336.png)
 
+
+
+- #### git merge 分支名(将其它分支内容合并到当前分支)
+
+![image-20240121174500695](https://cdn.jsdelivr.net/gh/chenshuosheng/picture/git/image-20240121174500695.png)
+

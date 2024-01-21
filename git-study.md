@@ -77,6 +77,14 @@
 
 ![image-20240121162151556](https://cdn.jsdelivr.net/gh/chenshuosheng/picture/git/image-20240121162151556.png)
 
+
+
+再次修改 ----> add ---->  commit  ---->  log
+
+![image-20240121162622112](https://cdn.jsdelivr.net/gh/chenshuosheng/picture/git/image-20240121162622112.png)
+
+
+
 vi命令--插入模式（Insert Mode）相关的快捷键：
 
 ​		i：在当前光标位置前插入文本

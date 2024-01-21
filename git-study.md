@@ -61,6 +61,22 @@
 
 
 
+- #### git commit(提交文件到本地仓库)
+
+- #### git reflog(查看简略提交信息) 
+
+- #### git log(查看详细提交信息) 
+
+  <img src="https://cdn.jsdelivr.net/gh/chenshuosheng/picture/git/image-20240121161522776.png" alt="image-20240121161522776" style="zoom:80%;" />
+
+<img src="https://cdn.jsdelivr.net/gh/chenshuosheng/picture/git/image-20240121161645980.png" alt="image-20240121161645980" style="zoom:80%;" />
+
+
+
+本地文件已经没有需要提交的内容了
+
+![image-20240121162151556](https://cdn.jsdelivr.net/gh/chenshuosheng/picture/git/image-20240121162151556.png)
+
 vi命令--插入模式（Insert Mode）相关的快捷键：
 
 ​		i：在当前光标位置前插入文本

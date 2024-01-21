@@ -85,6 +85,16 @@
 
 
 
+添加备注提交(git commit -m “备注内容” 文件名)
+
+![image-20240121163037459](https://cdn.jsdelivr.net/gh/chenshuosheng/picture/git/image-20240121163037459.png)
+
+
+
+- #### git reset --head 版本号(版本穿梭)
+
+
+
 vi命令--插入模式（Insert Mode）相关的快捷键：
 
 ​		i：在当前光标位置前插入文本
@@ -104,3 +114,4 @@ vi命令--插入模式（Insert Mode）相关的快捷键：
 cat 文件名：查看文件内容
 
 tail -n 数值(m) 文件名：查看文件倒数m条数据
+

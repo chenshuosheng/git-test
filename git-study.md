@@ -152,3 +152,28 @@ tail -n 数值(m) 文件名：查看文件倒数m条数据
 
 ![image-20240121174500695](https://cdn.jsdelivr.net/gh/chenshuosheng/picture/git/image-20240121174500695.png)
 
+
+
+
+
+- 生成冲突
+
+![image-20240121180945213](https://cdn.jsdelivr.net/gh/chenshuosheng/picture/git/image-20240121180945213.png)
+
+
+
+![image-20240121180959497](https://cdn.jsdelivr.net/gh/chenshuosheng/picture/git/image-20240121180959497.png)
+
+
+
+- 合并冲突
+
+![image-20240121181021994](https://cdn.jsdelivr.net/gh/chenshuosheng/picture/git/image-20240121181021994.png)
+
+
+
+![image-20240121181326466](https://cdn.jsdelivr.net/gh/chenshuosheng/picture/git/image-20240121181326466.png)
+
+
+
+![image-20240121181332745](https://cdn.jsdelivr.net/gh/chenshuosheng/picture/git/image-20240121181332745.png)

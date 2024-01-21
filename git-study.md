@@ -1,4 +1,5 @@
-### 分布式版本控制工具  VS  集中式版本控制工具
+### 1. 分布式版本控制工具  VS  集中式版本控制工具
+
 
 - #### 集中式：Subversion、CVS
 
@@ -15,7 +16,7 @@
 
 
 
-### 工作机制 & 远程库
+### 2. 工作机制 & 远程库
 
 <img src="https://cdn.jsdelivr.net/gh/chenshuosheng/picture/git/image-20240121145650885.png" alt="image-20240121145650885" style="zoom: 50%;" />
 
@@ -27,7 +28,7 @@
 
 
 
-### 常用命令
+### 3. 常用命令
 
 <img src="https://cdn.jsdelivr.net/gh/chenshuosheng/picture/git/image-20240121151517831.png" alt="image-20240121151517831" style="zoom:80%;" />
 
@@ -93,6 +94,8 @@
 
 - #### git reset --head 版本号(版本穿梭)
 
+  <img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240121165143757.png" alt="image-20240121165143757" style="zoom:80%;" />
+
 
 
 vi命令--插入模式（Insert Mode）相关的快捷键：
@@ -114,4 +117,26 @@ vi命令--插入模式（Insert Mode）相关的快捷键：
 cat 文件名：查看文件内容
 
 tail -n 数值(m) 文件名：查看文件倒数m条数据
+
+
+
+### 4. 分支
+
+- #### git branch 分支名(新增分支)
+
+- #### git branch -v(查看分支详情)
+
+- #### git branch checkout(切换分支)
+
+  
+
+  ![image-20240121172511929](https://cdn.jsdelivr.net/gh/chenshuosheng/picture/git/image-20240121172511929.png)
+  
+  
+  
+  ![image-20240121172525337](https://cdn.jsdelivr.net/gh/chenshuosheng/picture/git/image-20240121172525337.png)
+  
+  
+
+![image-20240121172559287](https://cdn.jsdelivr.net/gh/chenshuosheng/picture/git/image-20240121172559287.png)
 

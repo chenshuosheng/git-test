@@ -205,3 +205,14 @@ tail -n 数值(m) 文件名：查看文件倒数m条数据
 - #### git remote add 别名 项目链接(给项目起别名)
 
 ![image-20240121205701459](https://cdn.jsdelivr.net/gh/chenshuosheng/picture/git/image-20240121205701459.png)
+
+
+
+- #### git push 别名 分支名(上传远程仓库)
+
+  - 配置代理
+
+    - git config --global http.proxy 代理地址
+    - git config --global https.proxy 代理地址（查看vpn工具获得）
+
+    ![image-20240121213852435](https://cdn.jsdelivr.net/gh/chenshuosheng/picture/git/image-20240121213852435.png)

@@ -177,3 +177,31 @@ tail -n 数值(m) 文件名：查看文件倒数m条数据
 
 
 ![image-20240121181332745](https://cdn.jsdelivr.net/gh/chenshuosheng/picture/git/image-20240121181332745.png)
+
+
+
+### 5. github
+
+#### 1. 新建项目
+
+<img src="https://cdn.jsdelivr.net/gh/chenshuosheng/picture/git/image-20240121205835395.png" alt="image-20240121205835395" style="zoom: 67%;" />
+
+
+
+#### 2. 填写项目名称、描述信息，选择是否公开
+
+<img src="https://cdn.jsdelivr.net/gh/chenshuosheng/picture/git/image-20240121205910236.png" alt="image-20240121205910236" style="zoom: 67%;" />
+
+#### 3. 获取项目在github上的链接
+
+<img src="https://cdn.jsdelivr.net/gh/chenshuosheng/picture/git/image-20240121205748404.png" alt="image-20240121205748404" style="zoom:67%;" />
+
+
+
+
+
+- #### git remote -v(查看当前所有别名)
+
+- #### git remote add 别名 项目链接(给项目起别名)
+
+![image-20240121205701459](https://cdn.jsdelivr.net/gh/chenshuosheng/picture/git/image-20240121205701459.png)

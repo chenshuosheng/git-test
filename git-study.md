@@ -216,3 +216,25 @@ tail -n 数值(m) 文件名：查看文件倒数m条数据
     - git config --global https.proxy 代理地址（查看vpn工具获得）
 
     ![image-20240121213852435](https://cdn.jsdelivr.net/gh/chenshuosheng/picture/git/image-20240121213852435.png)
+
+
+
+**先添加到暂存区，再提交到本地库，最后才能push到远程仓库**
+
+![image-20240121214437564](https://cdn.jsdelivr.net/gh/chenshuosheng/picture/git/image-20240121214437564.png)
+
+
+
+- #### git clone 远程链接(克隆代码)
+
+  ![image-20240121215115719](https://cdn.jsdelivr.net/gh/chenshuosheng/picture/git/image-20240121215115719.png)
+
+  ![image-20240121215409717](https://cdn.jsdelivr.net/gh/chenshuosheng/picture/git/image-20240121215409717.png)
+
+  ![image-20240121215635898](https://cdn.jsdelivr.net/gh/chenshuosheng/picture/git/image-20240121215635898.png)
+
+
+
+**邀请成员，共同开发**
+
+![image-20240121220701153](https://cdn.jsdelivr.net/gh/chenshuosheng/picture/git/image-20240121220701153.png)

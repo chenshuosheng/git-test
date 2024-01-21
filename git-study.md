@@ -92,7 +92,7 @@
 
 
 
-- #### git reset --head 版本号(版本穿梭)
+- #### git reset --hard 版本号(版本穿梭)
 
   <img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240121165143757.png" alt="image-20240121165143757" style="zoom:80%;" />
 
@@ -126,7 +126,7 @@ tail -n 数值(m) 文件名：查看文件倒数m条数据
 
 - #### git branch -v(查看分支详情)
 
-- #### git branch checkout(切换分支)
+- #### git checkout 分支名(切换分支)
 
   
 

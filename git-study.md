@@ -240,6 +240,12 @@ tail -n 数值(m) 文件名：查看文件倒数m条数据
 
 
 
+- #### git push  项目别名(绑定远程链接) 本地未提交新分支(在远程仓库上创建新分支，并提交本地代码)
+
+![](https://cdn.jsdelivr.net/gh/chenshuosheng/picture/git/image-20240122101214297.png)
+
+
+
 ### 5. github
 
 #### 1. 新建项目

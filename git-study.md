@@ -178,14 +178,18 @@ tail -n 数值(m) 文件名：查看文件倒数m条数据
 
 - #### git checkout 分支名(切换分支)
 
+- #### git checkout -b 分支名(新增分支并切换到该分支)
+
+  ![image-20240122095741162](https://cdn.jsdelivr.net/gh/chenshuosheng/picture/git/image-20240122095741162.png)
+
   
 
   ![image-20240121172511929](https://cdn.jsdelivr.net/gh/chenshuosheng/picture/git/image-20240121172511929.png)
+
   
-  
-  
+
   ![image-20240121172525337](https://cdn.jsdelivr.net/gh/chenshuosheng/picture/git/image-20240121172525337.png)
-  
+
   
 
 ![image-20240121172559287](https://cdn.jsdelivr.net/gh/chenshuosheng/picture/git/image-20240121172559287.png)

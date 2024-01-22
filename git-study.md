@@ -246,6 +246,14 @@ tail -n 数值(m) 文件名：查看文件倒数m条数据
 
 
 
+- #### git push  项目别名(绑定远程链接) 待删除分支名
+
+  ![image-20240122101841193](https://cdn.jsdelivr.net/gh/chenshuosheng/picture/git/image-20240122101841193.png)
+
+- ![image-20240122101944015](https://cdn.jsdelivr.net/gh/chenshuosheng/picture/git/image-20240122101944015.png)
+
+
+
 ### 5. github
 
 #### 1. 新建项目

@@ -130,15 +130,29 @@
 
 第二天发现**无法直接push**
 
-- #### git add all(提交所有，包含删除信息)
+- #### git add/commit all(添加/提交所有，包含删除信息)
 
-- #### git add .(提交所有修改，不包含删除信息)
+- #### git add/commit .(添加/提交所有修改，也包含删除信息)
 
 ![image-20240122092522212](https://cdn.jsdelivr.net/gh/chenshuosheng/picture/git/image-20240122092522212.png)
 
 
 
 <img src="https://cdn.jsdelivr.net/gh/chenshuosheng/picture/git/image-20240122092719500.png" alt="image-20240122092719500" style="zoom:67%;" />
+
+
+
+- #### git rm 文件名(删除文件)
+
+<img src="https://cdn.jsdelivr.net/gh/chenshuosheng/picture/git/image-20240122103902201.png" alt="image-20240122103902201" style="zoom:67%;" />
+
+
+
+![image-20240122103856355](https://cdn.jsdelivr.net/gh/chenshuosheng/picture/git/image-20240122103856355.png)
+
+
+
+<img src="https://cdn.jsdelivr.net/gh/chenshuosheng/picture/git/image-20240122104001040.png" alt="image-20240122104001040" style="zoom:67%;" />
 
 
 

@@ -16,6 +16,18 @@
 
 
 
+区别：
+
+​		集中式的版本控制系统，每次在写代码时都需要从服务器中拉取一份下来，并且如果服务器丢失了，那么所有的就都丢失了，**本机客户端仅保存当前的版本信息**，换句话说，**集中式就是把代码放在一个服务器上集中管理**，你的所有回滚等操作都需要服务器的支持。
+
+​		分布式的版本控制系统，每个人的电脑都是服务器，当从主仓库拉取一份代码下来后，**本地电脑就是服务器**，无需担心主仓库被删或者找不到的情况，可以自由在本地回滚/提交，当想把自己的代码提交到主仓库时，只需要合并推送到主仓库就可以了，同时可以把自己的代码新建一份仓库分享给其它人。
+
+​		集中式的版本控制系统都有一个主版本号，所有的版本迭代都以这个版本号为主，而分布式因为每个客户端都是服务器，git没有固定的版本号，但是有一个由哈希算法算出的id，用来回滚用的，同时也有一个**master仓库，这个仓库是一切分支仓库的主仓库**，<u>我们可以推送提交到其它仓库并合并到主仓库上，主仓库的版本号会迭代一次，我们客户端上的git版本号无论迭代多少次，都跟master无关，只有合并时，master才会迭代一次</u>。
+
+
+
+
+
 ### 2. 工作机制 & 远程库
 
 <img src="https://cdn.jsdelivr.net/gh/chenshuosheng/picture/git/image-20240121145650885.png" alt="image-20240121145650885" style="zoom: 50%;" />
@@ -40,6 +52,18 @@
 
 
 
+
+
+- #### git config --global --list(查看全局配置)
+
+![image-20240121152150031](https://cdn.jsdelivr.net/gh/chenshuosheng/picture/git/image-20240121152150031.png)
+
+
+
+- #### git init(将当前目录作为本地库，自动生成.git文件夹，默认生成的分支为主分支：master)
+
+
+
 - #### git status(查看本地库状态)
 
 ![image-20240121154120139](https://cdn.jsdelivr.net/gh/chenshuosheng/picture/git/image-20240121154120139.png)
@@ -47,12 +71,6 @@
 
 
 <img src="https://cdn.jsdelivr.net/gh/chenshuosheng/picture/git/image-20240121153029612.png" alt="image-20240121153029612" style="zoom:80%;" />
-
-
-
-- #### git config --global --list(查看全局配置)
-
-![image-20240121152150031](https://cdn.jsdelivr.net/gh/chenshuosheng/picture/git/image-20240121152150031.png)
 
 
 
@@ -86,9 +104,25 @@
 
 
 
-添加备注提交(git commit -m “备注内容” 文件名)
+- #### git commit -m “备注内容” 文件名(添加备注提交)
 
 ![image-20240121163037459](https://cdn.jsdelivr.net/gh/chenshuosheng/picture/git/image-20240121163037459.png)
+
+
+
+- #### git commit --amend(修改上次提交的注释)
+
+  github last写成了gihub last
+
+![image-20240122091147516](https://cdn.jsdelivr.net/gh/chenshuosheng/picture/git/image-20240122091147516.png)
+
+
+
+<img src="https://cdn.jsdelivr.net/gh/chenshuosheng/picture/git/image-20240122091443307.png" alt="image-20240122091443307" style="zoom:67%;" />
+
+
+
+![image-20240122091609340](https://cdn.jsdelivr.net/gh/chenshuosheng/picture/git/image-20240122091609340.png)
 
 
 

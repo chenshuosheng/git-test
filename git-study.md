@@ -234,6 +234,12 @@ tail -n 数值(m) 文件名：查看文件倒数m条数据
 
 
 
+- #### git branch -d 分支名(删除本地分支)
+
+  ![image-20240122100422904](https://cdn.jsdelivr.net/gh/chenshuosheng/picture/git/image-20240122100422904.png)
+
+
+
 ### 5. github
 
 #### 1. 新建项目
